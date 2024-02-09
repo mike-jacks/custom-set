@@ -12,7 +12,7 @@ class CustomSet:
         if item in self.set:
             self.set.remove(item)
         else:
-            print(f"{item} is not in the set")
+           raise KeyError
 
     def as_list(self) -> list[object]:
         return self.set
