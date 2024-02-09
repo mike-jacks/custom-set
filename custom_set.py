@@ -3,7 +3,8 @@ class CustomSet:
         custom_set: list[object] = []
 
     def add(self, item: object) -> None:
-        pass
+        if item not in self.custom_set:
+            self.custom_set.append(item)
     def remove(self, item: object) -> None:
         pass
     def as_list(self) -> list[object]:
