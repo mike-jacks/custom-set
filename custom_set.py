@@ -1,6 +1,6 @@
 class CustomSet:
-    def __init__(self):
-        custom_set: list[object] = []
+    def __init__(self) -> None:
+        self.custom_set: list[object] = []
 
     def add(self, item: object) -> None:
         if item not in self.custom_set:
