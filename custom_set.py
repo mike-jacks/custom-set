@@ -1,6 +1,7 @@
 class CustomSet:
     def __init__(self):
-        pass
+        custom_set: list[object] = []
+
     def add(self, item: object) -> None:
         pass
     def remove(self, item: object) -> None:
