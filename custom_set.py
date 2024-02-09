@@ -5,8 +5,11 @@ class CustomSet:
     def add(self, item: object) -> None:
         if item not in self.custom_set:
             self.custom_set.append(item)
+
     def remove(self, item: object) -> None:
-        pass
+        if item in self.custom_set:
+            self.custom_set.remove(item)
+
     def as_list(self) -> list[object]:
         pass
     def clear(self) -> None:
