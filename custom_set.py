@@ -11,6 +11,8 @@ class CustomSet:
     def remove(self, item: object) -> None:
         if item in self.custom_set:
             self.custom_set.remove(item)
+        else:
+            print(f"{item} is not in the set")
 
     def as_list(self) -> list[object]:
         return self.custom_set
