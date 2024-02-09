@@ -21,7 +21,24 @@ class CustomSet:
         self.custom_set = []
 
 def main():
-    pass
+    my_set = CustomSet()
+    my_set.add("item 1")
+    my_set.add("item 2")
+    my_set.add("item 1")
+
+    print(my_set.as_list())
+
+    my_set.remove("item 2")
+    print(my_set.as_list())
+
+    try:
+        my_set.remove("item 3")
+    except KeyError:
+        print("Item not removed, moving forward")
+    
+    my_set.clear()
+
+    print(my_set.clear())
 
 if __name__ == "__main__":
     main()
