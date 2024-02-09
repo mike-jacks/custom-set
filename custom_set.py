@@ -5,6 +5,8 @@ class CustomSet:
     def add(self, item: object) -> None:
         if item not in self.custom_set:
             self.custom_set.append(item)
+        else:
+            print(f"{item} is already in the set")
 
     def remove(self, item: object) -> None:
         if item in self.custom_set:
