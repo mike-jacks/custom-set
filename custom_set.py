@@ -38,7 +38,7 @@ def main():
     
     my_set.clear()
 
-    print(my_set.clear())
+    print(my_set.as_list())
 
 if __name__ == "__main__":
     main()
