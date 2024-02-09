@@ -11,7 +11,8 @@ class CustomSet:
             self.custom_set.remove(item)
 
     def as_list(self) -> list[object]:
-        pass
+        return self.custom_set
+
     def clear(self) -> None:
         pass
 
