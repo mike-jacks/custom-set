@@ -14,7 +14,7 @@ class CustomSet:
         return self.custom_set
 
     def clear(self) -> None:
-        pass
+        self.custom_set = []
 
 def main():
     pass
