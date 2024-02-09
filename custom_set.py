@@ -10,3 +10,8 @@ class CustomSet:
     def clear(self) -> None:
         pass
 
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
